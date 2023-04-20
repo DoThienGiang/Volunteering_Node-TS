@@ -81,7 +81,7 @@ class ThamGiaController {
             if (!thamgia) {
                 throw new ApiError(httpStatus.NOT_FOUND, "ThamGia not found");
             } else {
-                if (req.body.hoatDong.length) {
+                if (req.body.hoatDong && req.body.hoatDongs.length) {
                     await Promise.all(
                         req.body.hoatDong.map(async (el: any) => {
                             const _hoatDong = await HoatDong.findByIdAndUpdate(
@@ -97,7 +97,7 @@ class ThamGiaController {
                         })
                     );
                 }
-                if (req.body.thanhViens.length) {
+                if (req.body.thanhVien && req.body.thanhViens.length) {
                     req.body.thanhViens.forEach(async (el: any) => {
                         const thanhVien = await ThanhVien.findByIdAndUpdate(el, {
                             $pull: { thamGias: thamgia.id },
