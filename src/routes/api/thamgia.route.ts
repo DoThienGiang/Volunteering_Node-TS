@@ -21,17 +21,23 @@ class ThamGiaRoute implements IRoutes {
     }
 
     private initializeRoutes(): void {
-        this.router
-            .route(`${this.path}/:thamGiaId`)
-            .get(validate(getOneThamGia), this.thamGiaController.getOneThamGia)
-            .patch(validate(updateThamGia), this.thamGiaController.updateThamGia)
-            .delete(validate(deleteThamGia), this.thamGiaController.deleteThamGia);
+        
 
         this.router
             .route(`${this.path}/`)
             .get(validate(getAllThamGia), this.thamGiaController.getAllThamGia)
             .post(validate(createThamGia), this.thamGiaController.createThamGia);
+        
+        this.router
+            .route(`${this.path}/sort`)
+            .get(this.thamGiaController.SapxepTBDiem)    
+            
+        this.router
+            .route(`${this.path}/:thamGiaId`)
+            .get(validate(getOneThamGia), this.thamGiaController.getOneThamGia)
+            .patch(validate(updateThamGia), this.thamGiaController.updateThamGia)
+            .delete(validate(deleteThamGia), this.thamGiaController.deleteThamGia);
     }
 }
 
-export default ThamGiaRoute;
+export default ThamGiaRoute; 

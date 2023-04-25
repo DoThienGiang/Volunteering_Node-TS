@@ -115,6 +115,67 @@ class ThamGiaController {
                 // trả về database bạn muốn xóa
                 data: thamgia,
             });
-        });
+        }
+    );
+
+
+    public SapxepTBDiem = catchAsync(
+        async (req: Request, res: Response): Promise<Response | void> => {
+            const results = await ThamGia.aggregate([
+
+                {$lookup: {
+                    from: 'thanhviens',
+                    localField: 'thanhVien',
+                    foreignField: '_id',
+                    as: 'ThanhVien',
+                },},
+                {$replaceRoot: {
+                    newRoot: { $mergeObjects: [{ $arrayElemAt: ['$ThanhVien', 0] }, '$$ROOT'] },
+                },},
+                {
+                    $project: {
+                        ThanhVien: 0
+                    }
+                },
+                {$match: {"isTruongDoan": true}},
+                {$lookup: {
+                    from: 'hoatdongs',
+                    localField: 'hoatDong',
+                    foreignField: '_id',
+                    as: 'HoatDong',
+                },},
+                {$replaceRoot: {
+                    newRoot: { $mergeObjects: [{ $arrayElemAt: ['$HoatDong', 0] }, '$$ROOT'] },
+                },},
+                {
+                    $project: {
+                        HoatDong: 0
+                    }
+                },
+                {$group: {
+                    _id: "$thanhVien",
+                    diemTBTruongDoan: {
+                        $avg: {
+                            $sum: ["$DiemTruongDoan"]
+                        }
+                    },
+                    diemTrungBinhTC: {
+                        $avg: {
+                            $sum: ["$DiemTieuChi1", "$DiemTieuChi2", "$DiemTieuChi3"]
+                        }
+                    },
+                }},
+                {$project: {
+                    _id: "$_id",
+                    mediumScore: {
+                        $divide: [{ $add: ["$diemTBTruongDoan", "$diemTrungBinhTC"] }, 4]
+                    }
+                }},
+                { $sort:{mediumScore:1}}
+            ])
+            return res.status(200).json(results)     
+        }
+    )
+
 }
 export default ThamGiaController
