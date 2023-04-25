@@ -30,7 +30,7 @@ class ThamGiaRoute implements IRoutes {
         
         this.router
             .route(`${this.path}/sort`)
-            .get(this.thamGiaController.SapxepTBDiem)    
+            .get(this.thamGiaController.sortAverageScore)    
             
         this.router
             .route(`${this.path}/:thamGiaId`)

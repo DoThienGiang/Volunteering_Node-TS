@@ -119,7 +119,7 @@ class ThamGiaController {
     );
 
 
-    public SapxepTBDiem = catchAsync(
+    public sortAverageScore = catchAsync(
         async (req: Request, res: Response): Promise<Response | void> => {
             const results = await ThamGia.aggregate([
 
