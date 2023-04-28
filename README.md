@@ -4,7 +4,7 @@
 
 ## Cho lược đồ CSDL quản lý điểm sinh viên, gồm các lược đồ quan hệ sau:
 
-ThanhVien (MaTV, HoTen, GioiTinh, NgaySinh, DiaChiEmail, SoDienThoai, isTruongDoan)
+ThanhVien (_MaTV_, HoTen, GioiTinh, NgaySinh, DiaChiEmail, SoDienThoai, isTruongDoan)
 
 HoatDong (MaHD, **MaTV**, MotaHD, NgayGioBD, NgayGioKT, SLToiThieuYC, SLToiDaYC, ThoiHanDK, TrangThai, LyDoHuyHD)
 
