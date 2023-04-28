@@ -4,11 +4,11 @@
 
 ## Cho lược đồ CSDL quản lý điểm sinh viên, gồm các lược đồ quan hệ sau:
 
-ThanhVien (~~MaTV~~, HoTen, GioiTinh, NgaySinh, DiaChiEmail, SoDienThoai, isTruongDoan)
+ThanhVien ( MaTV, HoTen, GioiTinh, NgaySinh, DiaChiEmail, SoDienThoai, isTruongDoan )
 
-HoatDong ~~MaHD~~, **MaTV**, MotaHD, NgayGioBD, NgayGioKT, SLToiThieuYC, SLToiDaYC, ThoiHanDK, TrangThai, LyDoHuyHD)
+HoatDong ( MaHD, **MaTV**, MotaHD, NgayGioBD, NgayGioKT, SLToiThieuYC, SLToiDaYC, ThoiHanDK, TrangThai, LyDoHuyHD )
 
-ThamGia (~~MaTG~~, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi1, DiemTieuChi2, DiemTieuChi3, NhanXetKhac)
+ThamGia ( MaTG, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi1, DiemTieuChi2, DiemTieuChi3, NhanXetKhac )
 
 ## Preparing For Deployment
 
