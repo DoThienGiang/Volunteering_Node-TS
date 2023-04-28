@@ -1,6 +1,6 @@
 ## CRUD với 4 thực thể liên kết với nhau
 
-![banner](CRUD.png)
+![banner](https://i.ytimg.com/vi/Z6kt1N3Lx1c/maxresdefault.jpg)
 
 ## Cho lược đồ CSDL quản lý điểm sinh viên, gồm các lược đồ quan hệ sau:
 
