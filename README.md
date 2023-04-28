@@ -1,6 +1,14 @@
-# CRUD với 4 thực thể liên kết với nhau
+## CRUD với 4 thực thể liên kết với nhau
 
 ![banner](CRUD.png)
+
+## Cho lược đồ CSDL quản lý điểm sinh viên, gồm các lược đồ quan hệ sau:
+
+ThanhVien (MaTV, HoTen, GioiTinh, NgaySinh, DiaChiEmail, SoDienThoai, isTruongDoan)
+
+HoatDong (**MaHD, **MaTV, MotaHD, NgayGioBD, NgayGioKT, SLToiThieuYC, SLToiDaYC, ThoiHanDK, TrangThai, LyDoHuyHD)
+
+ThamGia (MaTG, **MaTV, **MaHD, NgayGioDangKy, DiemTruongDoan, DiemTieuChi1, DiemTieuChi2, DiemTieuChi3, NhanXetKhac)
 
 ## Preparing For Deployment
 
