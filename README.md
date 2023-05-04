@@ -20,12 +20,16 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
  - Khi tạo mới một hoạt động thiện nguyện mới trên hệ thông, trưởng đoàn phải cung cấp những thông tin như: Tên hoạt động, mô tả công việc, ngày giờ bắt đầu, ngày giờ kết thúc, số lượng người tham gia tối thiểu, số lượng người tham gia tối đa, thời hạn đăng ký		
  - Thành viên phải cung cấp các thông tin như: Họ tên, Giới tính, Ngày sinh, Địa chỉ Email, Điện thoại											
  - Mỗi hoạt động sẽ có các trạng thái: **"Đang mời đăng ký"**, **"Đã hết hạn đăng ký"**, **"Trưởng đoàn tự hủy"**,  **"Đã kết thúc"**
- - Một hoạt động sau khi được tạo mới trên hệ thống, nó sẽ có trạng thái là "Đang mời đăng ký"
+ - Một hoạt động sau khi được tạo mới trên hệ thống, nó sẽ có trạng thái là **"Đang mời đăng ký"**
  - Nếu trưởng đoàn tự ý hủy hoạt động thì phải thông báo rõ nguyên nhân vì sao hủy
- - Sau mỗi hoạt động thiện nguyện, các thành viên tham gia sẽ đánh giá hiệu quả của hoạt động đó và cho điểm đối với khả năng tổ chức của trưởng đoàn. Chỉ được phép đánh giá các hoạt động có trạng thái là "Đã kết thúc". Ngoài cho điểm trưởng đoàn, các tiêu chí sau sẽ được đánh giá:								
+ - Sau mỗi hoạt động thiện nguyện, các thành viên tham gia sẽ đánh giá hiệu quả của hoạt động đó và cho điểm đối với khả năng tổ chức của trưởng đoàn. Chỉ được phép đánh giá các hoạt động có trạng thái là "Đã kết thúc". Ngoài cho điểm trưởng đoàn, các tiêu chí sau sẽ được đánh giá:			
+ 
 + Tiêu chí 1: Hoạt động này có hữu ích với bạn không?				
+
 + Tiêu chí 2: Hoạt động này có nên được tổ chức thường xuyên không?		
+
 + Tiêu chí 3: Hoạt động này có nên được tổ chức rộng rãi cho nhiều người tham gia không?
+
 (Các trường được bôi đậm là trường khóa chính của bảng, dữ liệu của các trường do sinh viên tự định nghĩa)	
 + MaTV trong bảng HOATDONG: Là mã của thành viên làm trưởng đoàn cho một hoạt động		
 + ThoiHanDK: Thời hạn đăng ký								
