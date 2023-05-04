@@ -32,13 +32,12 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
 
 (Các trường được bôi đậm là trường khóa chính của bảng, dữ liệu của các trường do sinh viên tự định nghĩa)	
 + MaTV trong bảng HOATDONG: Là mã của thành viên làm trưởng đoàn cho một hoạt động		
-+ ThoiHanDK: Thời hạn đăng ký								
-+ SLToiThieuYC: Số lượng thành viên tối thiểu yêu cầu phải đạt được để tổ chức hoạt động
-+ SLToiDaYC: Số lượng thành viên tối đa có thể đăng ký tham gia hoạt động	
-+ LyDoHuyHD: Lý do trưởng đoàn hủy hoạt động
-+ NhanXetKhac: Là những nhận xét dưới dạng free text, các thành viên có thể góp ý thêm cho hoạt động	
-+ DiemTruongDoan: Là điểm đánh giá dành cho trưởng đoàn
-SV hãy thiết kế web bằng ngôn ngữ lập trình bất kỳ với các yêu cầu cụ thể như sau:
++ **ThoiHanDK**: Thời hạn đăng ký								
++ **SLToiThieuYC**: Số lượng thành viên tối thiểu yêu cầu phải đạt được để tổ chức hoạt động
++ **SLToiDaYC**: Số lượng thành viên tối đa có thể đăng ký tham gia hoạt động	
++ **LyDoHuyHD**: Lý do trưởng đoàn hủy hoạt động
++ **NhanXetKhac**: Là những nhận xét dưới dạng free text, các thành viên có thể góp ý thêm cho hoạt động	
++ **DiemTruongDoan**: Là điểm đánh giá dành cho trưởng đoàn
 
 #Yêu cầu về chức năng:		
 
