@@ -63,11 +63,6 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
 
 - Tuân thủ coding convention (theo tài liệu hướng dẫn đã được cung cấp)	
 
-## Yêu cầu không bắt buộc:									
-
-- Nếu giao diện có tính mỹ thuật cao sẽ được cộng thêm tối đa 1 điểm	
-
-
 # Preparing For Deployment
 
 Environment configurations:
