@@ -31,7 +31,7 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
 + Tiêu chí 3: Hoạt động này có nên được tổ chức rộng rãi cho nhiều người tham gia không?
 
 (Các trường được bôi đậm là trường khóa chính của bảng, dữ liệu của các trường do sinh viên tự định nghĩa)	
-+ MaTV trong bảng HOATDONG: Là mã của thành viên làm trưởng đoàn cho một hoạt động		
++ **MaTV trong bảng HOATDONG**: Là mã của thành viên làm trưởng đoàn cho một hoạt động		
 + **ThoiHanDK**: Thời hạn đăng ký								
 + **SLToiThieuYC**: Số lượng thành viên tối thiểu yêu cầu phải đạt được để tổ chức hoạt động
 + **SLToiDaYC**: Số lượng thành viên tối đa có thể đăng ký tham gia hoạt động	
