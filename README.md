@@ -1,10 +1,8 @@
-## CRUD với 4 thực thể liên kết với nhau
+# CRUD với 4 thực thể liên kết với nhau
 
 ![banner](https://i.ytimg.com/vi/Z6kt1N3Lx1c/maxresdefault.jpg)
 
-## Lược đồ CSDL về tình nguyện viên:
-
-# Lượt đồ gồm các thực thể sao
+# Lược đồ CSDL về tình nguyện viên gồm các thực thể sau:
 
 ThanhVien ( _MaTV_, HoTen, GioiTinh, NgaySinh, DiaChiEmail, SoDienThoai, isTruongDoan )
 
@@ -12,7 +10,7 @@ HoatDong ( _MaHD_, **MaTV**, MotaHD, NgayGioBD, NgayGioKT, SLToiThieuYC, SLToiDa
 
 ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi1, DiemTieuChi2, DiemTieuChi3, NhanXetKhac )
 
-# Mô tả:											
+## Mô tả:											
  - Mỗi thành viên bất kỳ được quyền tổ chức 1 hoặc nhiều hoạt động thiện nguyện cùng lúc	.											
  - Hoạt động thiện nguyện là những hoạt động như mùa hè xanh, hiến máu nhân đạo, góp tiền ủng hộ bệnh nhân ung thư, góp sách cho trẻ em nghèo, phát cháo ở bệnh viện.
  - Mỗi thành viên cũng có quyền tham gia 1 hoặc nhiều hoạt động thiện nguyện do thành viên khác tổ chức cùng lúc.			
@@ -39,7 +37,7 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
 + **NhanXetKhac**: Là những nhận xét dưới dạng free text, các thành viên có thể góp ý thêm cho hoạt động	
 + **DiemTruongDoan**: Là điểm đánh giá dành cho trưởng đoàn
 
-# Yêu cầu về chức năng:		
+## Yêu cầu về chức năng:		
 
 - Màn hình 1: Tạo mới một hoạt động thiện nguyện 
     + (Yêu cầu nhập đầy đủ các trường trong bảng HOATDONG, trừ trường LyDoHuyHD)
@@ -56,7 +54,7 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
     + Không cần làm chức năng log in và log out cho các màn hình trên	
     + Không cần xử lý để nhập/xuất dữ liệu bằng tiếng Việt có dấu)
     
-# Yêu cầu về kỹ thuật: 
+## Yêu cầu về kỹ thuật: 
 
 - Tạo đầy đủ CSDL và kết nối được đến CSDL bằng code ngôn ngữ backend bất kỳ
 
@@ -64,12 +62,12 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
 
 - Tuân thủ coding convention (theo tài liệu hướng dẫn đã được cung cấp)	
 
-# Yêu cầu không bắt buộc:									
+## Yêu cầu không bắt buộc:									
 
 - Nếu giao diện có tính mỹ thuật cao sẽ được cộng thêm tối đa 1 điểm	
 
 
-## Preparing For Deployment
+# Preparing For Deployment
 
 Environment configurations:
 
