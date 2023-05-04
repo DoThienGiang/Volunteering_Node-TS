@@ -39,20 +39,30 @@ SV hãy thiết kế web bằng ngôn ngữ lập trình bất kỳ với các y
 #Yêu cầu về chức năng:		
 
 - Màn hình 1: Tạo mới một hoạt động thiện nguyện 
-    + (Yêu cầu nhập đầy đủ các trường trong bảng HOATDONG, trừ trường LyDoHuyHD) 
+    + (Yêu cầu nhập đầy đủ các trường trong bảng HOATDONG, trừ trường LyDoHuyHD)
+    
 - Màn hình 2: Sửa thông tin một hoạt động thiện nguyện
+
 - Màn hình 3: Liệt kê toàn bộ các hoạt động trong hệ thống 
+
 - Xóa một hoạt động thiện nguyện nào đó từ màn hình số 3 
     + (Lưu ý: Không cho phép xóa các hoạt động ở trạng thái là "Đã kết thúc)
+    
 - Màn hình 4: Thống kê điểm trung bình (do các thành viên khác đánh giá) của các trưởng đoàn, kết quả hiển thị cần được sắp xếp giảm dần của số điểm trung bình , bao gồm: Mã thành viên (trưởng đoàn), Họ tên thành viên (trưởng đoàn), Điểm đánh giá trung bình	
     (Lưu ý: 
     + Không cần làm chức năng log in và log out cho các màn hình trên	
     + Không cần xử lý để nhập/xuất dữ liệu bằng tiếng Việt có dấu)
+    
 #Yêu cầu về kỹ thuật: 
+
 - Tạo đầy đủ CSDL và kết nối được đến CSDL bằng code ngôn ngữ backend bất kỳ
+
 - Sử dụng đúng mô hình MVC
+
 - Tuân thủ coding convention (theo tài liệu hướng dẫn đã được cung cấp)	
+
 #Yêu cầu không bắt buộc:									
+
 - Nếu giao diện có tính mỹ thuật cao sẽ được cộng thêm tối đa 1 điểm	
 
 
