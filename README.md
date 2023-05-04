@@ -50,7 +50,8 @@ ThamGia ( _MaTG_, **MaTV**, **MaHD**, NgayGioDangKy, DiemTruongDoan, DiemTieuChi
     + (Lưu ý: Không cho phép xóa các hoạt động ở trạng thái là "Đã kết thúc)
     
 - Màn hình 4: Thống kê điểm trung bình (do các thành viên khác đánh giá) của các trưởng đoàn, kết quả hiển thị cần được sắp xếp giảm dần của số điểm trung bình , bao gồm: Mã thành viên (trưởng đoàn), Họ tên thành viên (trưởng đoàn), Điểm đánh giá trung bình	
-    (Lưu ý: 
+    
+- (Lưu ý: 
     + Không cần làm chức năng log in và log out cho các màn hình trên	
     + Không cần xử lý để nhập/xuất dữ liệu bằng tiếng Việt có dấu)
     
