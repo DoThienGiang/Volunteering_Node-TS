@@ -1,4 +1,4 @@
-# CRUD với 4 thực thể liên kết với nhau
+# CRUD với 4 thực thể liên kết với nhau sử dụng NodeJS - TypeScript
 
 ![banner](https://i.ytimg.com/vi/Z6kt1N3Lx1c/maxresdefault.jpg)
 
